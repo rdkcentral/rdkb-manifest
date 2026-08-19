@@ -4,9 +4,9 @@
     <remote name="github" fetch="https://github.com"/>
     <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <remote name="openembedded" fetch="https://git.openembedded.org"/>
-    <default remote="cmf" revision="rdk-next" sync-j="2"/>
+    <default remote="cmf" revision="rdkb-2026q1-kirkstone" sync-j="2"/>
     <include name="oe-layers.xml"/>
-    <project name="rdkcentral/meta-rdk-bsp-arm" remote="github" path="meta-rdk-bsp-arm" revision="develop"/>
+    <project name="rdkcentral/meta-rdk-bsp-arm" remote="github" path="meta-rdk-bsp-arm" revision="refs/tags/rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf"/>
     <project name="rdk/components/generic/rdk-oe/meta-cmf-broadband" path="meta-cmf-broadband"/>
     <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh"/>
@@ -17,6 +17,6 @@
     <project name="rdk/components/generic/sys_mon_tools/mem_analyser_tools"/>
     <project name="rdk/components/generic/sys_mon_tools/sys_resource"/>
     <project name="rdkb/components/generic/CcspLogAgent"/>
-    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main"/>
-    <project name="rdkcentral/rdkb-halif-platform" remote="github" path="rdkb/components/opensource/ccsp/rdkb-halif-platform" revision="main"/>
+    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="rdkb-2026q1-kirkstone"/>
+    <project name="rdkcentral/rdkb-halif-platform" remote="github" path="rdkb/components/opensource/ccsp/rdkb-halif-platform" revision="rdkb-2026q1-kirkstone"/>
 </manifest>
