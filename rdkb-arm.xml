@@ -2,8 +2,6 @@
 <manifest>
     <remote name="cmf" review="https://code.rdkcentral.com/r/" fetch="https://code.rdkcentral.com/r/"/>
     <remote name="github" fetch="https://github.com"/>
-    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
-    <remote name="openembedded" fetch="https://git.openembedded.org"/>
     <default remote="cmf" revision="rdk-next" sync-j="2"/>
     <include name="oe-layers.xml"/>
     <project name="rdkcentral/meta-rdk-bsp-arm" remote="github" path="meta-rdk-bsp-arm" revision="develop"/>

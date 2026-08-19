@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="rdkb-2026q1-kirkstone"/>
