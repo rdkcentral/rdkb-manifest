@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/kirkstone"/>
+    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="nightly/20260828-kirkstone"/>
     <project name="kraj/meta-clang" remote="github" path="meta-clang" revision="kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdk/kirkstone"/>
-    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdk/kirkstone"/>
-    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="nightly/20260828-kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="nightly/20260828-kirkstone"/>
+    <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="nightly/20260828-kirkstone"/>
+    <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="nightly/20260828-kirkstone"/>
     <project name="meta-lts-mixins" path="meta-lts-mixins" remote="yocto" revision="6baa9afeb88a4a9b4a0e82dd7e3e611438999dbb" dest-branch="kirkstone/rust"/>
 </manifest>
