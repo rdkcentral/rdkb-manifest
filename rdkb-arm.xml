@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+    <remote name="cmf" review="https://code.rdkcentral.com/r/" fetch="https://code.rdkcentral.com/r/"/>
+    <remote name="github" fetch="https://github.com"/>
+    <default remote="cmf" revision="rdkb-2026q1-kirkstone" sync-j="2"/>
+    <include name="oe-layers.xml"/>
+    <project name="rdkcentral/meta-rdk-bsp-arm" remote="github" path="meta-rdk-bsp-arm" revision="refs/tags/rdkb-2026q1-kirkstone"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf-broadband" path="meta-cmf-broadband"/>
+    <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk" path="meta-rdk"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk-broadband" path="meta-rdk-broadband"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext"/>
+    <project name="rdk/components/generic/rdkssa"/>
+    <project name="rdk/components/generic/sys_mon_tools/mem_analyser_tools"/>
+    <project name="rdk/components/generic/sys_mon_tools/sys_resource"/>
+    <project name="rdkb/components/generic/CcspLogAgent"/>
+    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="rdkb-2026q1-kirkstone"/>
+    <project name="rdkcentral/rdkb-halif-platform" remote="github" path="rdkb/components/opensource/ccsp/rdkb-halif-platform" revision="rdkb-2026q1-kirkstone"/>
+</manifest>

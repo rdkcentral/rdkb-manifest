@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+    <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/meta-clang" path="meta-clang" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/meta-gplv2" path="meta-gplv2" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/meta-virtualization" path="meta-virtualization" revision="rdkb-2026q1-kirkstone"/>
     <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdkb-2026q1-kirkstone"/>
+    <project name="meta-lts-mixins" path="meta-lts-mixins" remote="yocto" revision="6baa9afeb88a4a9b4a0e82dd7e3e611438999dbb" dest-branch="kirkstone/rust"/>
 </manifest>
