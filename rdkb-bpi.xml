@@ -1,26 +1,26 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <remote name="cmf" fetch="https://code.rdkcentral.com/r/" review="https://code.rdkcentral.com/r/" />
-    <remote name="github" fetch="https://github.com" review="https://github.com" />
-    <remote name="rdkcentral" fetch="https://github.com/rdkcentral" review="https://github.com/rdkcentral" />
-    <remote name="mediatek" fetch="https://git01.mediatek.com" review="" />
-    <default remote="cmf" revision="master" sync-j="2" />
+    <remote name="cmf" fetch="https://code.rdkcentral.com/r/" review="https://code.rdkcentral.com/r/"/>
+    <remote name="github" fetch="https://github.com" review="https://github.com"/>
+    <remote name="rdkcentral" fetch="https://github.com/rdkcentral" review="https://github.com/rdkcentral"/>
+    <remote name="mediatek" fetch="https://git01.mediatek.com" review=""/>
+    <default remote="cmf" revision="nightly/20260904-kirkstone" sync-j="2"/>
 
-    <include name="oe-layers.xml" />
-    <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0" />
+    <include name="oe-layers.xml"/>
+    <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0"/>
 
-    <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="211fa3d81ae19cc5c6be731d52b1aa6733336b71" />
-    <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="c67a32a7c8876b328a8d1eeaca213e860d85b3ce" />
+    <project name="filogic/rdk-b/meta-cmf-filogic" remote="mediatek" path="meta-cmf-filogic" revision="211fa3d81ae19cc5c6be731d52b1aa6733336b71"/>
+    <project name="filogic/rdk-b/meta-filogic" remote="mediatek" path="meta-filogic" revision="c67a32a7c8876b328a8d1eeaca213e860d85b3ce"/>
     
-    <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh" revision="rdk-next" />
-    <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext" revision="rdk-next" />
-    <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi" revision="develop" />
-    <project name="rdkcentral/meta-rdk-broadband-apps" remote="github" path="meta-rdk-broadband-apps" revision="main" />
-    <project name="rdkcentral/meta-rdk-iot" remote="github" path="meta-rdk-iot" revision="develop" />
-    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan" revision="main" />
-    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="5b75d8239bc82def265540ebef7f55ddc257219f" />
-    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="fb7729ab3e418420d71e38231d0d4c6b3c4044c8" />
-    <project name="meta-cmf" remote="rdkcentral" path="meta-cmf" revision="2f4978703aeb40f655ed87afaefb2b4654e432e7" />
-    <project name="meta-rdk" remote="rdkcentral" path="meta-rdk" revision="5d36a958a6bf43f5705b7428505a67bd373c091f" />
-    <project name="meta-rdk-auxiliary" remote="rdkcentral" path="meta-rdk-auxiliary" revision="28051ddcfee101423e966345b2aff53609cc0666" />
+    <project name="rdk/components/generic/rdk-oe/meta-cmf-mesh" path="meta-cmf-mesh"/>
+    <project name="rdk/components/generic/rdk-oe/meta-rdk-ext" path="meta-rdk-ext"/>
+    <project name="rdkcentral/meta-cmf-bananapi" remote="github" path="meta-cmf-bananapi"/>
+    <project name="rdkcentral/meta-rdk-broadband-apps" remote="github" path="meta-rdk-broadband-apps"/>
+    <project name="rdkcentral/meta-rdk-iot" remote="github" path="meta-rdk-iot"/>
+    <project name="rdkcentral/meta-rdk-wan" remote="github" path="meta-rdk-wan"/>
+    <project name="meta-cmf-broadband" remote="rdkcentral" path="meta-cmf-broadband" revision="5b75d8239bc82def265540ebef7f55ddc257219f"/>
+    <project name="meta-rdk-broadband" remote="rdkcentral" path="meta-rdk-broadband" revision="fb7729ab3e418420d71e38231d0d4c6b3c4044c8"/>
+    <project name="meta-cmf" remote="rdkcentral" path="meta-cmf" revision="2f4978703aeb40f655ed87afaefb2b4654e432e7"/>
+    <project name="meta-rdk" remote="rdkcentral" path="meta-rdk" revision="5d36a958a6bf43f5705b7428505a67bd373c091f"/>
+    <project name="meta-rdk-auxiliary" remote="rdkcentral" path="meta-rdk-auxiliary" revision="28051ddcfee101423e966345b2aff53609cc0666"/>
 </manifest>
