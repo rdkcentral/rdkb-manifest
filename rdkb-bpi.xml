@@ -4,7 +4,7 @@
     <remote name="github" fetch="https://github.com" review="https://github.com"/>
     <remote name="rdkcentral" fetch="https://github.com/rdkcentral" review="https://github.com/rdkcentral"/>
     <remote name="mediatek" fetch="https://git01.mediatek.com" review=""/>
-    <default remote="cmf" revision="nightly/20261009-kirkstone" sync-j="2"/>
+    <default remote="cmf" revision="rdkb-2026q3-kirkstone" sync-j="2"/>
 
     <include name="oe-layers.xml"/>
     <project name="plume-design/meta-rdk-opensync" remote="github" path="meta-rdk-opensync" revision="osync_4.4.0"/>

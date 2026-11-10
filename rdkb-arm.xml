@@ -4,7 +4,7 @@
     <remote name="github" fetch="https://github.com"/>
     <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
     <remote name="openembedded" fetch="https://git.openembedded.org"/>
-    <default remote="cmf" revision="nightly/20261009-kirkstone" sync-j="2"/>
+    <default remote="cmf" revision="rdkb-2026q3-kirkstone" sync-j="2"/>
     <include name="oe-layers.xml"/>
     <project name="rdkcentral/meta-rdk-bsp-arm" remote="github" path="meta-rdk-bsp-arm" revision="develop"/>
     <project name="rdk/components/generic/rdk-oe/meta-cmf" path="meta-cmf"/>
